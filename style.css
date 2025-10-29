@@ -7,49 +7,69 @@ body {
   background: #fff;
 }
 
-/* Header */
+/* Header Styling */
 .header {
-  background: #0a0a0a;
-  color: #fff;
-  padding: 15px 30px;
-  position: fixed;
   width: 100%;
+  background: #0d0d0d;
+  color: white;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  z-index: 1000;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 40px;
+  flex-wrap: wrap; /* prevents overflow on smaller screens */
 }
 
 .logo {
-  font-size: 1.5em;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .logo span {
-  color: #00bfff;
+  color: #00bcd4;
 }
 
+/* Nav Links */
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a {
-  color: #fff;
+.nav-links li a {
   text-decoration: none;
+  color: white;
   font-weight: 500;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
-.nav-links a:hover {
-  color: #00bfff;
+.nav-links li a:hover {
+  color: #00bcd4;
 }
 
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: #111;
+    padding: 15px 0;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+}
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -144,3 +164,4 @@ section {
     gap: 10px;
   }
 }
+
