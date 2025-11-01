@@ -1,9 +1,19 @@
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener("click", function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
-      behavior: "smooth"
-    });
-  });
-});
+// Mobile menu toggle
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("show");
+}
+
+// Typewriter effect
+const text = "Welcome to NEXUS AI DIGITAL Internship!";
+let index = 0;
+const speed = 100;
+
+function typeWriter() {
+  if (index < text.length) {
+    document.getElementById("typewriter").textContent += text.charAt(index);
+    index++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+window.onload = typeWriter;
