@@ -106,9 +106,9 @@ By completing this task, interns gain practical experience in:
 
 Intern: Noor Ul Ain Amir
 
-Organization:NEXUS AI DIGITAL
+Organization: NEXUS AI DIGITAL
 
-Mentor:Sir Zohaib Muaz
+Mentor: Sir Zohaib Muaz
 
 
 
