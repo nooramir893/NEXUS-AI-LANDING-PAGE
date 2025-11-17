@@ -105,7 +105,9 @@ By completing this task, interns gain practical experience in:
 👨‍💻 Author
 
 Intern: Noor Ul Ain Amir
+
 Organization:NEXUS AI DIGITAL
+
 Mentor:Sir Zohaib Muaz
 
 
@@ -113,7 +115,9 @@ Mentor:Sir Zohaib Muaz
 📅 Project Timeline
 
 Task: 1 – The Interactive Landing Page (UI Design Fundamentals)
+
 Duration: 5 days
+
 Level: Beginner (UI Specialist)
 
 
